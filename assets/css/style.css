@@ -123,6 +123,17 @@ body{
 }
 
 /*Contato*/
+#topo{
+    margin-top: -20px;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(74, 27, 243);
+    width: 78%;
+    height: 100px;
+
+}
 #contato{
     display: flex;
     flex-wrap: wrap;
@@ -136,10 +147,12 @@ body{
 }
 #contato input{
     height: 30px;
+    border-style: solid;
 }
 #contato input, button, text{
     margin-top: 10px;
     margin-bottom: 10px;
+    border-style: solid;
 }
 #contato button{
     height: 30px;
@@ -147,6 +160,7 @@ body{
     border-color: rgb(0, 0, 62);
     border-width: 3px;
     color: white;
+    border-style: solid;
 }
 #contato h3{
     font-weight: bold;
